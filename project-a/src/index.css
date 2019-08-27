@@ -9,8 +9,74 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
-#mainlogo {
+header div {
+    position: relative;
+    width: 20vh;
+    height: 10vh;
+    margin-bottom: 3vh;
+}
+
+header div img {
+    width: 20vh;
+    height: 10vh;
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+
+header div p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    width: 20vh;
+    height: 20vh;
+    margin-bottom: 3vh;
+}
+
+#menu {
+    padding: 0;
+    margin: 0;
+}
+
+#apply {
+    height: 5vh;
+}
+
+#main img {
     background-color: aquamarine;
     width: 20vh;
     height: 20vh;
+}
+
+#begin img {
+    background-color: cadetblue;
+}
+
+#menu img {
+    background-color: darkblue;
+}
+
+#apply img {
+    background-color: rosybrown;
+    height: 5vh;
+}
+
+#teacherinfo img {
+    background-color: honeydew;
+}
+
+#textbook img {
+    background-color: palevioletred;
+}
+
+#qanda img {
+    background-color: mediumseagreen;
 }
