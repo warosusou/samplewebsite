@@ -1,0 +1,47 @@
+#main {
+  background-color: rgb(237, 237, 237);
+  position: relative;
+  left: 25vh;
+  top: 10vh;
+  width: 100vw;
+  height: 90vh;
+  position: absolute;
+}
+
+#main ul {
+  position: absolute;
+  top: 0;
+  left: 25vw;
+  display: table;
+  margin-top: 2vh;
+}
+
+#main li {
+  width: 20vw;
+  height: 10vh;
+  background: whitesmoke;
+  text-align: center;
+  display:block;
+  border: thin solid;
+  margin-bottom: 3vh;
+}
+
+#large {
+  background-color: whitesmoke;
+  position: relative;
+  top: 2vh;
+  left: 2vh;
+  width: 25vw;
+  height: 80vh;
+  border: thin solid;
+}
+
+.small {
+  display: block;
+  background-color: whitesmoke;
+
+  width: 5vw;
+  height: 10vh;
+  border: thin solid;
+  margin-bottom: 3vh;
+}

@@ -10,3 +10,4 @@ import * as serviceWorker from './serviceWorker';
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
 serviceWorker.unregister();
+ReactDOM.render(<App/>,document.getElementById('header'));

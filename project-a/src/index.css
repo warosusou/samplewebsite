@@ -1,82 +1,125 @@
 body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+header {
+  position: relative;
 }
 
 header div {
-    position: relative;
-    width: 20vh;
-    height: 10vh;
-    margin-bottom: 3vh;
+  display: inline-block;
+  background-color: rgb(220, 255, 255);
+  width: 25vh;
+  height: 10vh;
+  margin-bottom: 0vh;
 }
 
-header div img {
-    width: 20vh;
-    height: 10vh;
-    display: block;
-    margin: 0;
-    padding: 0;
+header img {
+  width: 25vh;
+  height: 10vh;
+  display: block;
+  margin: 0;
+  padding: 0;
 }
 
-header div p {
+header p {
+  width: 25vh;
+  -ms-transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  color: whitesmoke;
+  font-size: 4vh;
+  text-align: center;
+}
+
+#Left {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 25vh;
+  height: 100vh;
+}
+
+#Left div {
+  position: relative;
+  margin-bottom: 3vh;
+}
+
+#Left div p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#Center {
+  position: absolute;
+  text-align: left;
+  margin-bottom: 0;
+  top: 0;
+  left: 25vh;
+  width : 100vw;
+  height: 10vh;
+  padding-right: 2vh;
+}
+
+#Center div {
+  position: relative;
+  margin-bottom: 0;
+  margin-left: 2vh;
+}
+
+#Center div p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+
+#Left #logo {
+  width: 25vh;
+  height: 25vh;
+  margin-bottom: 3vh;
+}
+
+#Left #menu {
+  padding: 0;
+  margin: 0;
+}
+
+#Left #apply {
+  height: 5vh;
+}
+
+#Left #logo img {
+  background-color: aquamarine;
+  width: 25vh;
+  height: 25vh;
+}
+
+#Left #apply img {
+  background-color: rgb(229, 175, 76);
+  height: 5vh;
+}
+
+#Left #apply p {
+  font-size: 3.5vh;
+}
+
+#twitter {
+    text-align: center;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-    margin: 0;
-    padding: 0;
-}
-
-#main {
-    width: 20vh;
-    height: 20vh;
-    margin-bottom: 3vh;
-}
-
-#menu {
-    padding: 0;
-    margin: 0;
-}
-
-#apply {
-    height: 5vh;
-}
-
-#main img {
-    background-color: aquamarine;
-    width: 20vh;
-    height: 20vh;
-}
-
-#begin img {
-    background-color: cadetblue;
-}
-
-#menu img {
-    background-color: darkblue;
-}
-
-#apply img {
-    background-color: rosybrown;
-    height: 5vh;
-}
-
-#teacherinfo img {
-    background-color: honeydew;
-}
-
-#textbook img {
-    background-color: palevioletred;
-}
-
-#qanda img {
-    background-color: mediumseagreen;
+    top: 0;
+    right: 0%;
+    margin: 0%;
 }
